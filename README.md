@@ -14,11 +14,12 @@ Dataset
 
 ### Preparation
 
-# Logical Test
+### Logical Test
 - Ensured data had no logical errors. 
 -- HIgh > Low
 -- Volume >= 0
 -- Close <= High / Close >= Low
 
 ### Data standardazing
+
 - standardized date column
