@@ -6,7 +6,7 @@ Dataset
 
 
 ### Start
-- Improted libraries.
+- Imported libraries.
 - got dataset from 90_days.csv
 
 ### Initial Data Check
@@ -14,15 +14,21 @@ Dataset
 
 ### Preparation
 
+### Null verifying
+- Found 64 **Null** values in symbol column
+
+### Duplicate test
+- No duplicates found
+
 ### Logical Test
 Ensured data had no logical errors.
- - HIgh > Low
+ - HIgh >= Low
  - Volume >= 0
  - Close <= High / Close >= Low
 
-### Data standardazing
+### Dat standardazing
+- Standardized date column
 
-- standardized date column
 
 
 
