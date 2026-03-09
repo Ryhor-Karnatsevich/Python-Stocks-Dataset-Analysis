@@ -1,4 +1,15 @@
-Dataset
+# Python/SQL Stock Market Analysis
+
+DATASET: Historical stock market prices
+DATASET Source: https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
+ROWS: 14,887,665
+
+Columns:
+date, open, high, low, close, volume, symbol
+
+## Tools:
+- Python
+- PostgreSQL
 
 ### SQL
 - Wrote SQL query to get 90 latest days from dataset. Also  didn't use openint  columns, because it had empty values.
@@ -7,9 +18,9 @@ Dataset
 
 ### Start
 - Imported libraries.
-- got dataset from 90_days.csv
+- Got dataset from 90_days.csv
 
-### Initial Data Check
+### Data Exploration
 - Got basic information about the dataset 
 
 ### Preparation
@@ -28,6 +39,7 @@ Ensured data had no logical errors.
 
 ### Dat standardazing
 - Standardized date column
+
 
 
 
