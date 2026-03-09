@@ -25,7 +25,7 @@ date, open, high, low, close, volume, symbol
 ### Data Exploration
 - Got basic information about the dataset 
 
-### Preparation
+## Data Preparation
 
 ### Null verifying
 - Found 64 **Null** values in symbol column
@@ -41,6 +41,7 @@ Ensured data had no logical errors.
 
 ### Dat standardazing
 - Standardized date column
+
 
 
 
