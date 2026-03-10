@@ -39,8 +39,9 @@ Ensured data had no logical errors.
  - Volume >= 0
  - Close <= High / Close >= Low
 
-### Dat standardazing
+### Date standardazing
 - Standardized date column
+
 
 
 
