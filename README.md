@@ -27,8 +27,9 @@ date, open, high, low, close, volume, symbol
 
 ## Data Preparation
 
-### Null verifying
+### Null Test
 - Found 64 **Null** values in symbol column
+- Deleted missing data
 
 ### Duplicate test
 - No duplicates found
@@ -41,6 +42,15 @@ Ensured data had no logical errors.
 
 ### Date standardazing
 - Standardized date column
+
+### Data Export
+- Exported cleaned Dataset **"clean_data"**
+
+
+## Analysis
+
+
+
 
 
 
