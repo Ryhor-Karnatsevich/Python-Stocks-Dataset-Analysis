@@ -63,6 +63,11 @@ Ensured data had no logical errors.
 ### Tickers List
 - Created **top_symbols** list based on symbols from the previous table.
 
+### Daily Return
+- Sorted on ticker and date
+- Calculated daily return
+
+
 
 
 
