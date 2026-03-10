@@ -44,10 +44,25 @@ Ensured data had no logical errors.
 - Standardized date column
 
 ### Data Export
-- Exported cleaned Dataset **"clean_data"**
-
+- Exported cleaned Dataset **"clean_data.csv"**
 
 ## Analysis
+
+### Quick Check
+- Dataset was **correct**
+
+### Tickers Amount
+- Check amount of stock tickers (7161)
+
+### Grouping Tickers
+- Calculated sum volume fro each symbol. made sure symbol column was not an index.
+
+### Top 20
+- Got top 20 based on sum of volume and also reseted indexes
+
+### Tickers List
+- Created **top_symbols** list based on symbols from the previous table.
+
 
 
 
