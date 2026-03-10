@@ -83,9 +83,10 @@ Ensured data had no logical errors.
 - Created correlation matrix with 20 top stocks
 - Also exproted **"correlation.png"** with heatmap based on matrix
 
-![matrix]("correlation_heatmap.png")
+![matrix](correlation_heatmap.png)
 
 ## Conclusion
+
 
 
 
