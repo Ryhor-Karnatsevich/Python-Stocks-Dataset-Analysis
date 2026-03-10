@@ -9,6 +9,23 @@ ROWS: 14,887,665
 Columns:
 date, open, high, low, close, volume, symbol
 
+## Project Overview
+
+This project analyzes historical U.S. stock market data using SQL and Python.
+
+The workflow includes data extraction from a large financial dataset, data validation and cleaning, and analytical exploration of the most actively traded stocks. The analysis focuses on identifying the most liquid stocks based on trading volume and evaluating their short-term behavior using several financial metrics.
+
+Key aspects of the analysis include:
+
+- identification of the most actively traded stocks
+- calculation of daily returns
+- volatility analysis across multiple time horizons (10 / 30 / 90 days)
+- trading activity analysis using average volume
+- correlation analysis between highly liquid stocks
+
+The project demonstrates a typical data analysis workflow combining **SQL data extraction**, **Python data processing**, and **data visualization**.
+
+
 ## Tools:
 - Python
 - PostgreSQL
@@ -86,6 +103,7 @@ Ensured data had no logical errors.
 ![matrix](correlation_heatmap.png)
 
 ## Conclusion
+
 
 
 
