@@ -63,9 +63,29 @@ Ensured data had no logical errors.
 ### Tickers List
 - Created **top_symbols** list based on symbols from the previous table.
 
+### Ticker Filtration
+-Filtered Dataset using **top_symbols** list
+
+## Main Analysis
+
 ### Daily Return
 - Sorted on ticker and date
 - Calculated daily return
+
+### Volatility
+- Created table with 10/30/90 days volatility on every stock.
+- Created additional volatility rank
+
+### Average volume
+- Created table with 10/30/90 days averages on every stock.
+
+### Correlation Matrix
+- Created correlation matrix with 20 top stocks
+- Also exproted **"correlation.png"** with heatmap based on matrix
+
+## Conclusion
+
+
 
 
 
