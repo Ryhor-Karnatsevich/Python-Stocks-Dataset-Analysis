@@ -36,7 +36,8 @@ The project demonstrates a typical **data analysis pipeline using SQL and Python
 
 ---
 ### Data Wrangling
-Original dataset consists of multiple individual text files per ticker. Data was aggregated into a single unified CSV table for comprehensive analysis.
+The original dataset consisted of multiple text files, each representing a single stock ticker. 
+All files were aggregated into one unified CSV table to enable large-scale analysis across all stocks.
 
 
 ## SQL
@@ -152,6 +153,7 @@ The results show differences in volatility and trading activity across the most 
 The correlation analysis also provides insights into how highly traded stocks move relative to one another, revealing relationships between certain groups of companies.
 
 Overall, this project demonstrates a complete data analysis workflow including **SQL data extraction, data cleaning, financial metric calculation, and visualization using Python**.
+
 
 
 
